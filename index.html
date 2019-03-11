@@ -7,6 +7,8 @@
 	<title>KJ's Smokin Salmon Dip</title>
 	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="grid.css">
+	<link rel="stylesheet" href="nav.css">
 </head>
 <body>
 	<header>
@@ -15,8 +17,10 @@
 				<img src="/images/circle_logo.png" id="circle-logo" class='center-block' alt="Responsive image">
 			</div>
 		</div>
-		<nav id='navbar' class="border border-white">
-				<ul class="nav justify-content-center  navHead">
+							<div class="header-grid">
+
+		<nav id='navbar' class="header-left border border-white">
+				<ul class="grid-navigation nav justify-content-center  navHead">
 						<li class="nav-item">
 						  <a class="nav-link active" href="#"><h3>Our Dip</h3></a>
 						</li>
@@ -28,6 +32,38 @@
 						</li>
 				</ul>
 		</nav>
+		<div class="header-center">
+
+		</div>
+		<div class="header-right">
+
+		</div>
+		<div class="header-mobile">
+				<nav role="navigation">
+						<div id="menuToggle">
+
+							<input type="checkbox" />
+
+							<span></span>
+							<span></span>
+							<span></span>
+
+							<ul id="menu">
+								<a href="#">
+									<li>Home</li>
+								</a>
+								<a href="#">
+									<li>About</li>
+								</a>
+								<a href="#">
+									<li>Info</li>
+								</a>
+							</ul>
+						</div>
+					</nav>
+
+		</div>
+	</div>
 	</header>
 
 

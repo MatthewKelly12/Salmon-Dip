@@ -17,7 +17,7 @@ img {
 /* #D8726B salmon */
 .head-bg {
 	/* background-image: url('/images/chilean_river.jpg'); */
-	background: radial-gradient(rgb(197, 194, 180), rgb(209, 194, 171));
+	background: radial-gradient(white, #d1c2ab);
 	height: fit-content;
 	background-size: 100%;
 	display: block;

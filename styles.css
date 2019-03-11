@@ -1,0 +1,84 @@
+html, body {
+	height: 100%;
+}
+
+img {
+	z-index: -2;
+}
+
+.z {
+	z-index: -2;
+}
+/* colors */
+/* #2B3542 greyish midnight */
+/* #305854 dark sea green */
+/* #558A84 light sea green */
+/* #F0CFC4 off white */
+/* #D8726B salmon */
+.head-bg {
+	background-image: url('Chilean River 2 copy_edit.jpg');
+	height: 600px;
+	/* Safari 6.0 - 9.0 */
+	/* -webkit-filter: grayscale(40%);  */
+	/* filter: grayscale(40%); */
+}
+
+.blur {
+	-webkit-filter: grayscale(30%); /* Safari 6.0 - 9.0 */
+  	filter: grayscale(30%);
+}
+
+.navHead {
+	height: 80px;
+	/* font-family: 'Pacifico', cursive; */
+	/* margin-bottom: 10%; */
+	background-color: #558A84;
+}
+
+a {
+	color: white;
+}
+
+.center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+    padding-top: 10%;
+    text-align: center;
+}
+
+.marg {
+	margin: 7%;
+}
+
+.padd {
+	padding-top: 3%;
+}
+
+.off-white {
+	background-color: #F0CFC4;
+}
+.story {
+	background-color: #D8726B;
+}
+.light-sea-green {
+	background-color: #558A84;
+}
+
+.marg-bottom {
+	padding-bottom: 5%;
+}
+
+.content {
+	padding: 16px;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.sticky + .content {
+	padding-top: 60px;
+}

@@ -16,8 +16,12 @@ img {
 /* #F0CFC4 off white */
 /* #D8726B salmon */
 .head-bg {
-	background-image: url('Chilean River 2 copy_edit.jpg');
-	height: 600px;
+	/* background-image: url('/images/chilean_river.jpg'); */
+	background: radial-gradient(rgb(197, 194, 180), rgb(209, 194, 171));
+	height: fit-content;
+	background-size: 100%;
+	display: block;
+	padding: auto;
 	/* Safari 6.0 - 9.0 */
 	/* -webkit-filter: grayscale(40%);  */
 	/* filter: grayscale(40%); */
@@ -32,7 +36,7 @@ img {
 	height: 80px;
 	/* font-family: 'Pacifico', cursive; */
 	/* margin-bottom: 10%; */
-	background-color: #558A84;
+	background-color: #be3e45;
 }
 
 a {
@@ -43,7 +47,7 @@ a {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-    padding-top: 10%;
+    padding: 2%;
     text-align: center;
 }
 
@@ -59,7 +63,7 @@ a {
 	background-color: #F0CFC4;
 }
 .story {
-	background-color: #D8726B;
+	background-color: #be3e45;
 }
 .light-sea-green {
 	background-color: #558A84;
@@ -67,6 +71,12 @@ a {
 
 .marg-bottom {
 	padding-bottom: 5%;
+}
+
+.nav-item {
+	margin-left:70px;
+	margin-right:70px;
+	margin-top: 10px;
 }
 
 .content {
@@ -81,4 +91,12 @@ a {
 
 .sticky + .content {
 	padding-top: 60px;
+}
+
+#circle-logo {
+	width: 42%;
+	display: block;
+	height: auto;
+	margin: auto;
+
 }

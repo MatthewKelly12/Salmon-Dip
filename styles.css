@@ -1,9 +1,39 @@
 html, body {
 	height: 100%;
+
+}
+
+.neg-margin {
+	margin-top: -64px;
+}
+
+.black-opacity {
+	background-color: rgba(0, 0, 0, 0.432);
+}
+
+.big-onhover :hover {
+	font-size: 40px;
+}
+
+.light-blue-onhover :hover {
+
+	color: rgb(169, 224, 238);
+}
+.more-padding {
+	padding: 80px;
+}
+.barn {
+
+	background-image: url(/images/side-of-barn-110661300046912lMA\ \(1\).jpg);
+	background-size: 100%;
 }
 
 img {
 	z-index: -2;
+}
+
+.cursive {
+	font-family: 'Dancing Script', cursive;
 }
 
 .z {
@@ -25,6 +55,14 @@ img {
 	/* Safari 6.0 - 9.0 */
 	/* -webkit-filter: grayscale(40%);  */
 	/* filter: grayscale(40%); */
+}
+
+.blackground {
+	background-color: black;
+}
+
+.light-font {
+	color: #ece6dd;
 }
 
 .blur {
@@ -107,4 +145,16 @@ a {
 	height: auto;
 	margin: auto;
 
+}
+
+
+
+#navbar {
+	opacity: 1;
+}
+
+.red {
+	color: #be3e45;
+	width: 100%;
+	height: 5%;
 }

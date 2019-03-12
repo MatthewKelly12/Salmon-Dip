@@ -5,7 +5,7 @@
       grid-template-columns: 45% 55%;
       grid-template-areas: "header-mobile header-center";
       position: fixed;
-      background-color: white;
+      background-color: #be3e45;
       width: 100%
     }
     .header-left {
@@ -27,7 +27,7 @@
     }
     .sidebar {
       align-self: baseline;
-      border-bottom: 1px solid #d0d7db;
+      border-bottom: 1px solid #be3e45;
     }
     .footer-grid {
       grid-template-columns: auto;

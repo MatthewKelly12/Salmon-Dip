@@ -25,6 +25,10 @@ html, body {
     }
 }
 
+.right {
+
+}
+
 .big-onhover :hover {
 	font-size: 40px;
 }

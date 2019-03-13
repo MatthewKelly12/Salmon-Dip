@@ -4,14 +4,21 @@ html, body {
 }
 
 .neg-margin {
-	margin-top: -64px;
+	margin-top: -65px;
 }
+
+
+
+.padding-top {
+	padding-top: 5%;
+}
+
 
 .black-opacity {
 	background-color: rgba(0, 0, 0, 0.432);
 }
 
-.animate-opacity {
+.animate-opacity{
     animation: opac 3.0s
 }
 
@@ -25,9 +32,7 @@ html, body {
     }
 }
 
-.right {
 
-}
 
 .big-onhover :hover {
 	font-size: 40px;
@@ -48,6 +53,14 @@ html, body {
 
 img {
 	z-index: -2;
+}
+
+.ocean-back {
+	background-image: url(/images/download.jpeg);
+	background-size: 100%;
+}
+.lato {
+	font-family: 'Lato', sans-serif;
 }
 
 .cursive {

@@ -9,18 +9,37 @@
       width: 100%
     }
 
+    .on-top {
+      z-index: 0;
+    }
+
+    .round {
+      border-radius: 50%;
+    }
+
     .small-img {
       width: 90%;
       z-index: 0;
       position: relative;
-      padding-left: 10%;
+
       border-radius: 10px;
+    }
+
+    .padding-left {
+      transform: translate(4% , 0)
+    }
+
+    .neg-pad-left {
+      padding-left: -10%;
     }
 
     .border-bottom {
       border-bottom: #be3e45 10px;
     }
-
+    .margin-reducer {
+      margin: -25%;
+      margin-top: 25%;
+    }
     .center-text {
       text-align: center;
     }
@@ -29,6 +48,10 @@
     }
     .header-right {
       display: none;
+    }
+    .front-n-center {
+      z-index: 5;
+
     }
     .content-grid {
       grid-template-columns: auto;

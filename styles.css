@@ -7,7 +7,9 @@ html, body {
 	margin-top: -65px;
 }
 
-
+.shadow {
+	box-shadow: #8d2b30;
+}
 
 .padding-top {
 	padding-top: 5%;

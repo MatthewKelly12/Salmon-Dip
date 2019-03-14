@@ -7,12 +7,38 @@ html, body {
 	margin-top: -65px;
 }
 
+.translate-left {
+	transform: translate(-50%, 20%);
+}
+
+.translate-right {
+	transform: translate(50%, 20%);
+}
+.translate-middle {
+	transform: translate(0, 20%);
+}
+
+.translate-down {
+	transform: translate(0, -5%);
+}
+
+.translate-up {
+	transform: translate(0, -12%);
+}
+.no-decor {
+	text-decoration: none;
+}
+
 .shadow {
 	box-shadow: #8d2b30;
 }
 
 .padding-top {
 	padding-top: 5%;
+}
+
+.padding-bottom {
+	padding-bottom: 5%;
 }
 
 
@@ -66,7 +92,19 @@ img {
 }
 
 .cursive {
-	font-family: 'Dancing Script', cursive;
+	font-family: 'Pacifico', cursive;
+}
+
+.abel {
+	font-family: 'Abel' , sans-serif;
+}
+
+.big-font {
+font-size: 15pt;
+}
+
+.bigger-font {
+	font-size: 50pt;
 }
 
 .z {
